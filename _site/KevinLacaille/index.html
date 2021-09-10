@@ -18,8 +18,12 @@
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
   <title>Kevin Lacaille</title>
-  <meta content="" name="descriptison">
-  <meta content="" name="keywords">
+  <meta property="og:title" content="Kevin Lacaille" />
+  <meta property="og:description" content="Astrophysicist &#8594; Software Engineer." />
+  <meta content="Astrophysicist &#8594; Software Engineer." name="description">
+  <meta content="Kevin Lacaille, Lacaille, Kevin, algorithm designer, software engineer" name="keywords">
+  <meta content="Kevin Lacaille" name="author">  
+
 
   <!-- Favicons -->
   <link href="assets/img/hot-beverage_2615.png" rel="icon">
@@ -47,6 +51,8 @@
   ======================================================== -->
 </head>
 
+<script src="https://code.iconify.design/2/2.0.4/iconify.min.js"></script>
+
 <body>
 
   <!-- ======= Mobile nav toggle button ======= -->
@@ -59,8 +65,8 @@
       <ul>
         <li class="active"><a href="#hero"><i class="bx bx-home"></i> <span>Home</span></a></li>
         <li><a href="#about"><i class="bx bx-user"></i> <span>About</span></a></li>
+        <li><a href="#skills"><i class="bx bx-bar-chart-alt-2"></i> <span>Skills</span></a></li>
         <li><a href="#resume"><i class="bx bx-file-blank"></i> <span>Resume</span></a></li>
-        <!-- <li><a href="#portfolio"><i class="bx bx-book-content"></i> <span>Portfolio</span></a></li> -->
         <!-- <li><a href="#services"><i class="bx bx-server"></i> <span>Services</span></a></li> -->
         <li><a href="#contact"><i class="bx bx-envelope"></i> <span>Contact</span></a></li>
       </ul>
@@ -72,7 +78,19 @@
   <section id="hero" class="d-flex flex-column justify-content-center">
     <div class="container" data-aos="zoom-in" data-aos-delay="100">
       <h1>Kevin Lacaille</h1>
-      <p>I'm a(n) <span class="typed" data-typed-items="Algorithm Designer, Astrophysicist, Developer, Scientist"></span></p>
+
+      <!-- <script>
+        function getAdjective(str){
+          if (str.charAt(0) != "A"){
+            adjective = "a";
+          } else {
+            adjective = "an";
+          }
+          return adjective
+        }        
+      </script> -->
+
+      <p>I am a <span class="typed" data-typed-items="software engineer ⚡ , scientist 🛰️, coffee lover ☕, dad 👨"></span></p>
       <div class="social-links">
         <!-- <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a> -->
         <!-- <a href="#" class="facebook"><i class="bx bxl-facebook"></i></a> -->
@@ -95,7 +113,7 @@
         <div class="section-title">
           <h2>About</h2>
           <p>
-            I love to code.
+            I love to learn
           </p>
         </div>
         <div class="row">
@@ -103,18 +121,18 @@
             <img src="assets/img/SMA.jpg" class="img-fluid" alt="">
           </div>
           <div class="col-lg-8 pt-4 pt-lg-0 content">
-            <h3>(astro)physicist &#8594; software engineer.</h3>
+            <h3>astrophysicist &#8594; software engineer.</h3>
             <p>
               🔭 I was an observational astronomer working in the field of galaxy evolution and dynamics, where I used the world's best telescopes to look deep into space, and back in time, to a time when galaxies were younger and and more violent than they are today.
             </p>
             <p>
-              ⭐ I studied the gas that fuels their star formation and the dust heated by exploding stars and active black holes.
+              ⭐ By studying their galactic dust and gas heated by exploding stars and active black holes, I uncovered how galaxies use them to fuel their star formation.
             </p>
             <p>
-              👨‍💻 Now, I use my extensive knowledge in both physics and astrophysics to create innovative image processing solutions and data science frameworks for cutting-edge technology in aerospace and maritime defence.
+              👨‍💻 I applied my knowledge in both physics and astrophysics to create innovative computer vision and image processing algorithms for aerospace and maritime technology in industry.
             </p>
             <p>
-              ⚡ I design novel detection algorithms, generate realistic land-based and maritime simulations, and measure every useful metric.
+              🛰️ Now, I develop tools to empower fellow scientists and developers to explore the Earth at with Planet Labs' tiny satellites!
             </p>
             <p>
 
@@ -133,9 +151,9 @@
 
 
         <div class="section-title">
-          <!-- <h2>About</h2> -->
           <p>
-            I love to write.
+            I love to teach
+            <a href="https://ui.adsabs.harvard.edu/search/q=%20author%3A%22Lacaille%2C%20K%22&sort=date%20desc%2C%20bibcode%20desc&p_=0" class="message-square-edit"><i class="bx bx-message-square-edit"></i></a>
           </p>
         </div>
         <div class="row">
@@ -144,31 +162,33 @@
             <div class="count-box">
               <i class="icofont-users-alt-5"></i>
               <span data-toggle="counter-up">8</span>
-              <p>Unique Projects</p>
+              <p>Unique astrophysics projects</p>
             </div>
           </div>
 
           <div class="col-lg-3 col-md-6 mt-5 mt-lg-0">
             <div class="count-box">
               <i class="icofont-papers"></i>
-              <span data-toggle="counter-up">22</span>
-              <p>Published peer-reviewed papers</p>
+              <span data-toggle="counter-up">25</span>
+              <p>Published papers</p>
+              <p>(peer-reviewed)</p>
             </div>
           </div>
 
           <div class="col-lg-3 col-md-6 mt-5 mt-md-0">
             <div class="count-box">
               <i class="icofont-chart-bar-graph"></i>
-              <span data-toggle="counter-up">428</span>
+              <span data-toggle="counter-up">643</span>
               <p>Citations</p>
             </div>
           </div>
-<!-- class="iconify" data-icon="bx:bx-bar-chart-alt" data-inline="false"> -->
+
           <div class="col-lg-3 col-md-6 mt-5 mt-lg-0">
             <div class="count-box">
               <i class="icofont-eye"></i>
-              <span data-toggle="counter-up">892</span>
+              <span data-toggle="counter-up">1066</span>
               <p>Reads</p>
+              <p>(past 90 days)</p>
             </div>
           </div>
 
@@ -183,33 +203,37 @@
 
         <div class="section-title">
           <h2>Skills</h2>
-          <p>
-            My programming skills are deeply rooted in object-oriented coding. My go-to languages are Python and MATLAB, version controlled with git, of course. That being said, I will always try and use the best tool for the job at hand. I am exploring C++ and SQL!
-          </p>
         </div>
+          <div class="row">
+            <p>
+            Currently, I primarily develop in <tt>Python</tt>, version controlling using <tt>git</tt> on GitHub & GitLab.
+            I am currently learning <tt>C++</tt>, <tt>SQL</tt>, and web development! 
+            Below are the relative strengths for the languages and tools I use in my stack:
+          </p>
+          </div>
 
         <div class="row skills-content">
 
           <div class="col-lg-6">
 
             <div class="progress">
-              <span class="skill">Python <i class="val">80%</i></span>
-              <div class="progress-bar-wrap">
-                <div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="80"></div>
-              </div>
-            </div>
-
-            <div class="progress">
-              <span class="skill">MATLAB <i class="val">100%</i></span>
+              <span class="skill">Python <i class="val">100%</i></span>
               <div class="progress-bar-wrap">
                 <div class="progress-bar" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
               </div>
             </div>
 
             <div class="progress">
-              <span class="skill">bash <i class="val">60%</i></span>
+              <span class="skill">MATLAB <i class="val">90%</i></span>
               <div class="progress-bar-wrap">
-                <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="60"></div>
+                <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="90"></div>
+              </div>
+            </div>
+
+            <div class="progress">
+              <span class="skill">C++ <i class="val">40%</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="40"></div>
               </div>
             </div>
 
@@ -218,16 +242,16 @@
           <div class="col-lg-6">
 
             <div class="progress">
-              <span class="skill">git <i class="val">80%</i></span>
+              <span class="skill">bash <i class="val">60%</i></span>
               <div class="progress-bar-wrap">
-                <div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
+                <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="60"></div>
               </div>
             </div>
 
             <div class="progress">
-              <span class="skill">C++ <i class="val">40%</i></span>
+              <span class="skill">git <i class="val">80%</i></span>
               <div class="progress-bar-wrap">
-                <div class="progress-bar" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="40"></div>
+                <div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
               </div>
             </div>
 
@@ -259,68 +283,98 @@
             <h3 class="resume-title">Summary</h3>
             <div class="resume-item pb-0">
               <h4>Kevin Lacaille</h4>
-              <p><em>Innovative and enthusiastic Software Engineer with 5+ years of experience developing novel data science frameworks and image proessing techniques, in both industry and academia.</em></p>
-              <!-- <ul>
-                <li>Hamilton, ON Canada</li> -->
-                <!-- <li>(123) 456-7891</li> -->
-                <!-- <li>kevinlacaille@gmail.com</li> -->
-              <!-- </ul> -->
-            </div>
-
-            <h3 class="resume-title">Education</h3>
-            <div class="resume-item">
-              <h4>Doctor of Philosophy (self-withdrew), Astrophysics</h4>
-              <h5>2017 - 2019</h5>
-              <p><em>McMaster University, Hamilton, ON</em></p>
-              <p>Thesis title: "The nature of the interstellar medium of starbursts"</p>
-            </div>
-            <div class="resume-item">
-              <h4>Master of Science, Physics</h4>
-              <h5>2015 - 2017</h5>
-              <p><em>Dalhousie University, Halifax, NS</em></p>
-              <p>Thesis title: "A sub-mm survey of far-IR protoclusters &amp; the variability of protostars"</p>
-            </div>
-            <div class="resume-item">
-              <h4>Bachelor of Science Honours, Physics &amp; Math</h4>
-              <h5>2011 - 2015</h5>
-              <p><em>Dalhousie University, Halifax, NS</em></p>
-              <p>Thesis title: "Locating sub-mm galaxies within protoclusters at z>2"</p>
-            </div>
+              <p><em>Innovative & enthusiastic Software Engineer with 6+ years of experience developing intuitive and user-friendly APIs, novel computer vision solutions, data science frameworks, image processing techniques, in both industry and academia.</em></p>
           </div>
-          <div class="col-lg-6">
+
             <h3 class="resume-title">Professional Experience</h3>
             <div class="resume-item">
-              <h4>Algorithm Designer</h4>
-              <h5>2019 - present</h5>
-              <p><em>L3Harris WESCAM, Hamilton, ON</em></p>
+              <h4>Software Engineer, Developer Relations</h4>
+              <h5>2021 - present</h5>
+              <p><em> <a href="https://www.planet.com"> Planet Labs</a>, Remote</em></p>
               <ul>
-                <li> The lead algorithm designer for the novel infrared-based imaging system. </li>
-                <li> Simulating synthetic data of land-based and maritime scenes. </li>
-                <li> Developing software for multi-target detection and tracking.
-                <li> Leading the effort in migrating the machine learning stack to Microsoft Azure. </li>
-                <tt> MATLAB / Python / git / Atlassian Tools / Grafana / Azure / Linux</tt>
+                <li> Developing tools to enable and empower fellow scientists and developers to do amazing things using Planet's APIs and imagery.</li>
+                <li> Working on Planet SDKs, developing code examples and demo apps, contributing to open source developer tools and libraries, create code-focused tutorials, and write a blog posts. </li>
+                <li> Developing a Python client library and command line interface (CLI) for Planet's public API. <br> 
+                  <a href="https://github.com/planetlabs/planet-client-python" class="github"><i class="bx bxl-github"></i> GitHub</a></li>
+                <li> Creating an end-to-end data project for Planet APIs in Python. <br>
+                  <a href="https://developers.planet.com/planetschool/"> <span class="iconify-inline" data-icon="simple-icons:planet"></span> Planet School</a>
+                  </li>
+                
+                <tt> Python: </tt><i> asyncio, click, httpx, Rasterio, NumPy, Matplotlib, Pandas </i> <br>
+                <tt> git / bash / Docker / GitHub & GitLab / Jupyter Notebooks / MacOS</tt> <!-- Swagger/OpenAPI -->
               </ul>
             </div>
             <div class="resume-item">
+              <h4>Algorithm Designer</h4>
+              <h5>2019 - 2021</h5>
+              <p><em><a href="https://www.l3harris.com/en-ca/canada?regional_redirect=en-ca"> L3Harris WESCAM</a>, Burlington, ON</em></p>
+              <ul>
+              
+                <li> The lead algorithm designer for two novel infrared-based imaging systems. </li>
+                <li> Developed the core object detection, multi-target tracking, track to track association, and track fusion algorithms for multiple imaging systems. </li>
+                <li> Collaborated with multiple teams to develop a synthetic data generator, which allows for ad hoc generation of synthetic scenery, resulting in a massive reduction in labour hours spent in gathering field imagery. </li>
+                <li> Refactored and updated an in-house ground truth and data ingestion application, maintained the optical flow model (FlowNet2) and incorporated an object classifier (YOLOv4). </li>
+                <li> Lead a team of 5 for process improvement related to unit testing guidelines, code styling, code guidelines, git workflow, and code reviews.</li>
+                <tt> Python:</tt> <i> Matplotlib, NumPy, OpenCV, Pytorch, Tensorflow, Keras, SciPy, Scikit-learn </i> <br>
+                <tt> MATLAB: </tt> <i> Image Processing, Computer Vision, Signal Processing, Deep Learning </i> <br>
+                <tt> git / bash / Docker / Atlassian Tools / Linux</tt>
+              </ul>
+            </div>
+          </div>
+          
+          <div class="col-lg-6">
+            <div class="resume-item">
               <h4>Research Assistant</h4>
               <h5>2012 - 2019</h5>
-              <p><em>McMaster University, Hamilton, ON &amp; Dalhousie University, Halifax, NS</em></p>
+              <p><em> <a href="https://physics.mcmaster.ca/"> McMaster University</a>, Hamilton, ON &amp; <a href="https://www.dal.ca/faculty/science/physics.html"> Dalhousie University</a>, Halifax, NS</em></p>
               <ul>
                 <li> Developed spectral line fitting algorithms, modelled galaxy's dynamics, and used statistical analysis to uncover distant galaxies. </li>
                 <li> Designed algorithms to align obscured star maps to unprecedented accuracy to measure small changes in a star's luminosity. </li>
-                <tt> Python / Starlink / CASA / LaTeX / Linux</tt>
+                <tt> Python:</tt> <i> Matplotlib, NumPy, SciPy, Pandas, AstroPy, AplPy, PyFits, Galpak </i> <br>
+              <tt>Starlink / CASA / LaTeX / Linux</tt>
               <ul>
             </div>
             <div class="resume-item">
               <h4>Resident Scientist</h4>
               <h5>2016</h5>
-              <p><em>East Asian Observatory, Hilo, HI</em></p>
+              <p><em><a href="https://www.eaobservatory.org/"> East Asian Obervatory</a>, Hilo, HI</em></p>
               <ul>
                 <li> Assisted in commissioning of an instrument on the James Clerk Maxwell Telescope (JCMT) </li>
                 <li> Conducted >450 hrs of scientific observations with the JCMT's legacy and prototype instruments </li>
-                <tt> Python / Bash / Starlink / Linux</tt>
+                <tt> Python:</tt> <i> Matplotlib, NumPy, AstroPy, AplPy, PyFits </i> <br>
+                <tt> bash / Starlink / Linux</tt>
               <ul>
             </div>
+            
+            <h3 class="resume-title">Education</h3>
+            <div class="resume-item">
+              <h4>Doctor of Philosophy (self-withdrew), Astrophysics</h4>
+              <h5>2017 - 2019</h5>
+              <p><em><a href="https://physics.mcmaster.ca/"> McMaster University</a>, Hamilton, ON</em></p>
+              <p>Thesis title: "The nature of the interstellar medium of starbursts"</p>
+            </div>
+            <div class="resume-item">
+              <h4>Master of Science, Physics</h4>
+              <h5>2015 - 2017</h5>
+              <p><em><a href="https://www.dal.ca/faculty/science/physics.html"> Dalhousie University</a>, Halifax, NS</em></p>
+              <p>Thesis title: "A sub-mm survey of far-IR protoclusters &amp; the variability of protostars"</p>
+            </div>
+            <div class="resume-item">
+              <h4>Bachelor of Science Honours, Physics &amp; Math</h4>
+              <h5>2011 - 2015</h5>
+              <p><em><a href="https://www.dal.ca/faculty/science/physics.html"> Dalhousie University</a>, Halifax, NS</em></p>
+              <p>Thesis title: "Locating sub-mm galaxies within protoclusters at z>2"</p>
+            </div>
+          
+            <h3 class="resume-title">Volunteering</h3>
+            <div class="resume-item">
+              <h4>Sketchy Run Club</h4>
+              <h5>2020 - present</h5>
+              <p><em><a href="https://www.instagram.com/sketchyrunclub/"> Sketchy Run Club</a>, Hamilton, ON</em></p>
+              <p>I help organize runs and I designed, built, and manage the club's webpage: <a href="https://sketchyrunclub.netlify.app/"> sketchyrunclub.netlify.app</a></p>
+            </div>
+
+
           </div>
         </div>
 
